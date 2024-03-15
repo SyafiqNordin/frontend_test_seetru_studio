@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './page-tabs.component.scss'
 })
 export class PageTabsComponent {
-  public tabs: string[] = ['Home', 'About IFSB', 'Standard Development', 'Publication', 'PSIFIs', 'Consultation', 'Implementation', 'Event & Activities'];
+  public tabs: string[] = ['Home', 'About IFSB', 'Standard Development', 'Publication', 'Consultation', 'Implementation', 'Event & Activities'];
 
 }

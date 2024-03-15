@@ -39,9 +39,9 @@
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss",
-              "src/styles/flex.scss",
-              "src/styles/gap.scss",
-              "src/styles/text.scss"
+              "src/styles/_flex.scss",
+              "src/styles/_gap.scss",
+              "src/styles/_text.scss"
             ],
             "scripts": []
           },

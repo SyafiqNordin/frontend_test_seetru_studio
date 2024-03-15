@@ -1,1 +1,21 @@
-<p>page-tabs works!</p>
+<section>
+    <div class="flex-row flex-space-between full-height">
+        <div class="flex-start-center company-logo">
+            <img src="../../../assets/images/company-logo.png">
+        </div>
+        <div class="tabs flex-start-center">
+            <mat-tab-group fitInkBarToContent >
+                <ng-container *ngFor="let tab of tabs">
+                    <mat-tab>
+                        <ng-template mat-tab-label>
+                            <h4 class="poppins-text no-margin">{{ tab }}</h4>
+                        </ng-template>
+                    </mat-tab>
+                </ng-container>
+            </mat-tab-group>
+            <div class="ifsb-member-zone full-height flex-center">
+                <p class="no-margin poppins-text white-text">IFSB Member's zone</p>
+            </div>
+        </div>
+    </div>
+</section>

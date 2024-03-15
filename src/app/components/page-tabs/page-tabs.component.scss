@@ -1,0 +1,22 @@
+:host {
+    section {
+        height: 85px;
+    }
+
+    ::ng-deep .mat-mdc-tab-label .mat-mdc-focus-indicator {
+        padding: 0;
+      }
+
+    .company-logo {
+        margin-left: 140px;
+    }
+
+    .tabs {
+        margin-right: 140px;
+    }
+
+    .ifsb-member-zone {
+        width: 232px;
+        background-color: #475A76;
+    }
+}

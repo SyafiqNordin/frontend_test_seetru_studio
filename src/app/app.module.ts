@@ -25,6 +25,9 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { PageTabsComponent } from './components/page-tabs/page-tabs.component';
 import { PageTitleContainerComponent } from './components/page-title-container/page-title-container.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { FooterMenuComponent } from './components/footer-menu/footer-menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { PageTitleContainerComponent } from './components/page-title-container/p
     ContactUsComponent,
     PageHeaderComponent,
     PageTabsComponent,
-    PageTitleContainerComponent
+    PageTitleContainerComponent,
+    NewsletterComponent,
+    FooterMenuComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,

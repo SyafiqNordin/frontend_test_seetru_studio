@@ -1,5 +1,13 @@
 :host {
-    .about-psifis {
+    mat-card {
+        border-radius: 0;
+    }
+
+    mat-card-content {
+        padding: 0 30px 30px 30px;
+    }
+
+    .section-title {
         color: #283887;
     }
 
@@ -11,7 +19,21 @@
         background-position: center;
     }
 
-    .key-strategic-focus-areas {
-        color: #283887;
+    .governing-documents-section {
+        background-image: url('../../../assets/images/governing-documents-background.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cards {
+        padding-left: 50px;
+    }
+
+    .card-details-text {
+        font-size: 18px;
+    }
+
+    .calendar-icon {
+        color: #EBB437;
     }
 }

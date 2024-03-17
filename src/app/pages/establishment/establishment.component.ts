@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './establishment.component.scss'
 })
 export class EstablishmentComponent {
+  public pageTitle: string = 'ESTABLISHMENT';
   public aboutTabs: string[] = ['Vision', 'Mission', 'Core Values', 'Objective', 'Moto'];
 }

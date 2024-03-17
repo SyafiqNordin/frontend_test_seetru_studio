@@ -61,8 +61,7 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   providers: [
     provideAnimationsAsync(),
-    provideNativeDateAdapter(),
-    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'outline', floatLabel: 'always'}}
+    provideNativeDateAdapter()
   ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

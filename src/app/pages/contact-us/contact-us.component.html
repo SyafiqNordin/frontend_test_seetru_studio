@@ -58,7 +58,13 @@
         </mat-card>
     </div>
 
-    <app-newsletter></app-newsletter>
+    <div class="newsletter-container">
+        <app-newsletter></app-newsletter>
+        <div>
+            <img src="../../../assets/images/scroll-up-button.svg" class="scroll-up-button" (click)="scrollToTop()">
+        </div>
+    </div>
+    
     <app-footer-menu></app-footer-menu>
     <app-footer></app-footer>
 </section>

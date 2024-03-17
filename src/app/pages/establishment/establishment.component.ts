@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 export class EstablishmentComponent {
   public pageTitle: string = 'ESTABLISHMENT';
   public aboutTabs: string[] = ['Vision', 'Mission', 'Core Values', 'Objective', 'Moto'];
+
+  public scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+    })
+  }
 }

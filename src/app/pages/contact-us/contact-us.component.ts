@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './contact-us.component.scss'
 })
 export class ContactUsComponent {
-  public pageTitle: string = 'CONTACT US '
+  public pageTitle: string = 'CONTACT US';
+
+  public scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+    })
+  }
 }

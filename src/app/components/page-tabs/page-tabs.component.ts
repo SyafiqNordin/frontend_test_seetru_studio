@@ -15,5 +15,9 @@ export class PageTabsComponent {
 
   public navigateToEstablishment(): void {
     this.router.navigateByUrl('/establishment');
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+    });
   }
 }

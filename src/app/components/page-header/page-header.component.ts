@@ -13,6 +13,10 @@ export class PageHeaderComponent {
   ) {}
   
   public navigateToContactPage(): void {
-    this.router.navigateByUrl('/contact-us')
+    this.router.navigateByUrl('/contact-us');
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+    });
   }
 }

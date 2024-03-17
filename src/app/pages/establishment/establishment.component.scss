@@ -21,6 +21,22 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
+    .image-container {
+        position: relative;
+    }
+
+    .hq-image-caption {
+        position: absolute;
+        bottom: -8%;
+        right: 23%;
+        background-color: #ffffff;
+        padding-top: 19px;
+        padding-bottom: 20px;
+        padding-right: 23px;
+        padding-left: 27px;
+        box-shadow: 0px 5px 15px #5A8AE31C;
+    }
+
     .section-title {
         color: #283887;
     }

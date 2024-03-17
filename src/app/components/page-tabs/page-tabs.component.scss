@@ -15,5 +15,18 @@
     .ifsb-member-zone {
         width: 232px;
         background-color: #475A76;
+        transition: background-color 0.1s, transform 1s;
+    }
+
+    .ifsb-member-zone:hover {
+        background-color: #EBB437;
+
+        .ifsb-member-zone-text {
+            transform: scale(1.2);
+        }
+
+        .profile-logo {
+            transform: translateX(-8px);
+        }
     }
 }
